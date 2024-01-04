@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 12%;
+  background-color:#1F2937;
+}
+
+.nav i {
+  margin: 12px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav ul a{
+text-decoration: none;
+color: aliceblue;
+}
+
+.welcome {
+  display: flex;
+  padding: 6%;
+  background-color:#1F2937;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  color: aliceblue;
+  margin: 0 17% 0 8%;
+}
+
+.welcome-text h1{
+  font-size: 48px;
+}
+
+.welcome-text p {
+  font-size: 17px;
+  color: rgb(199, 203, 207);
+}
+
+.sign-up-button {
+  background-color: #24a0ed;
+  margin-top: 7px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+}
+
+.placeholder {
+  background-color:rgb(114, 126, 141);
+  display: flex;
+  flex-shrink: 0;
+  min-height: 215px;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6%;
+  color: aliceblue;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
